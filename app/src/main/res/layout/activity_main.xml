@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="gilberthlam.com.fractionsimplifier.MainActivity">
+    tools:context="gilberthlam.com.fraction_androidapp.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,6 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
+        android:digits="0123456789-"
         android:hint="Denominator"
         android:ems="10"
         android:id="@+id/denomBox"
@@ -72,6 +73,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:digits="0123456789-"
         android:inputType="number"
         android:hint="Numerator"
         android:ems="10"
